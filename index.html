@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Page Title -->
+  <title>Compile</title>
+  <!-- / -->
+  <!---Font Icon-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <!-- / -->
+  <!-- Plugin CSS -->
+  <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- / -->
+  <!-- Theme Style -->
+  <link href="static/css/commons.css" rel="stylesheet" />
+  <!-- / -->
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/logo_1.jpg" />
+  <!-- / -->
+</head>
+<!-- Body Start -->
+
+<body id="page-top">
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark " id="sidebar">
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon  ">
+          <img class="rounded-circle" src="assets/images/logo.jpg">
+        </div>
+        <div class="sidebar-brand-text mx-3">KIT CLUB</div>
+      </a>
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-home"></i>
+          <span>Lớp học</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+    </ul>
+    <!-- End of Sidebar -->
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">99+</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  Thông báo
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">03/02/2020</div>
+                    <span class="font-weight-bold">Thông báo 1</span>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">02/02/2020</div>
+                    Thông báo 2
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-warning">
+                      <i class="fas fa-exclamation-triangle text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">01/02/2020</div>
+                    Error: Money not found
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="#">Xem tất cả</a>
+              </div>
+            </li>
+            <div class="topbar-divider d-none d-sm-block"></div>
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">BOSS admin</span>
+                <img class="img-profile rounded-circle" src="assets/images/user.jpg">
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Hồ sơ
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Cài đặt
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between flex-wrap mb-4">
+            <div class="container-fluid--header row d-flex justify-content-between ">
+              <div class="content__search h3 mb-0 text-gray-800"> <input placeholder="Nhập từ khóa tìm kiếm">
+              </div>
+              <div class="creat__class">
+                <button><a href="#"><i class="fas fa-plus"></i> Tạo lớp</a></button>
+              </div>
+            </div>
+            <div class="container__fluid__class row d-flex justify-content-between flex-wrap mt-2">
+              <div class="content__item  ">
+                <div class="content__item__class">
+                  <div class="img__class d-flex align-items-start flex-column bd-highlight">
+                    <img src="./assets/images/Chemistry.jpg" alt="">
+                    <div class="name__class d-flex bd-highlight mb-2">
+                      <div class="teacher--class h6 mr-auto p-2 bd-highlight">
+                        <a class="" href="#">Lớp JS.09</a>
+                        <p>Đặng Trường Giang</p>
+                      </div>
+                      <div class="list__class dropdown p-1 ">
+                        <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                          id="dropdownMenuLink">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                          aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item sm fw" href="#">Sửa thông tin lớp</a>
+                          <a class="dropdown-item" href="#">Xóa lớp</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__item  ">
+                <div class="content__item__class">
+                  <div class="img__class d-flex align-items-start flex-column bd-highlight">
+                    <img src="./assets/images/English.jpg" alt="">
+                    <div class="name__class d-flex bd-highlight mb-2">
+                      <div class="teacher--class h6 mr-auto p-2 bd-highlight">
+                        <a class="" href="#">Lớp JS.09</a>
+                        <p>Đặng Trường Giang</p>
+                      </div>
+                      <div class="list__class dropdown p-1 ">
+                        <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                          id="dropdownMenuLink">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                          aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item sm fw" href="#">Sửa thông tin lớp</a>
+                          <a class="dropdown-item" href="#">Xóa lớp</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__item  ">
+                <div class="content__item__class">
+                  <div class="img__class d-flex align-items-start flex-column bd-highlight">
+                    <img src="./assets/images/Geography.jpg" alt="">
+                    <div class="name__class d-flex bd-highlight mb-2">
+                      <div class="teacher--class h6 mr-auto p-2 bd-highlight">
+                        <a class="" href="#">Lớp JS.09</a>
+                        <p>Đặng Trường Giang</p>
+                      </div>
+                      <div class="list__class dropdown p-1 ">
+                        <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                          id="dropdownMenuLink">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                          aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item sm fw" href="#">Sửa thông tin lớp</a>
+                          <a class="dropdown-item" href="#">Xóa lớp</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__item  ">
+                <div class="content__item__class">
+                  <div class="img__class d-flex align-items-start flex-column bd-highlight">
+                    <img src="./assets/images/Honors.jpg" alt="">
+                    <div class="name__class d-flex bd-highlight mb-2">
+                      <div class="teacher--class h6 mr-auto p-2 bd-highlight">
+                        <a class="" href="#">Lớp JS.09</a>
+                        <p>Đặng Trường Giang</p>
+                      </div>
+                      <div class="list__class dropdown p-1 ">
+                        <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                          id="dropdownMenuLink">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                          aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item sm fw" href="#">Sửa thông tin lớp</a>
+                          <a class="dropdown-item" href="#">Xóa lớp</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__item  ">
+                <div class="content__item__class">
+                  <div class="img__class d-flex align-items-start flex-column bd-highlight">
+                    <img src="./assets/images/img_backtoschool.jpg" alt="">
+                    <div class="name__class d-flex bd-highlight mb-2">
+                      <div class="teacher--class h6 mr-auto p-2 bd-highlight">
+                        <a class="" href="#">Lớp JS.09</a>
+                        <p>Đặng Trường Giang</p>
+                      </div>
+                      <div class="list__class dropdown p-1 ">
+                        <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                          id="dropdownMenuLink">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                          aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item sm fw" href="#">Sửa thông tin lớp</a>
+                          <a class="dropdown-item" href="#">Xóa lớp</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- End of Page Content -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white mt-5">
+        <div class="container-fluid my-auto">
+          <div class="copyright text-center my-auto">
+            <span>All © Copyright by KIT-CLUB. All Rights Reserved.</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- jQuery -->
+  <script src="static/plugin/jquery/jquery-3.2.1.min.js"></script>
+  <!-- Plugins -->
+  <script src="static/plugin/bootstrap/js/popper.min.js"></script>
+  <script src="static/plugin/bootstrap/js/bootstrap.min.js"></script>
+  <!-- custom -->
+  <script src="static/js/commons.js"></script>
+</body>
+
+</html>
